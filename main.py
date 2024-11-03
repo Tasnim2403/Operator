@@ -1,0 +1,10 @@
+a = int(input("Enter value of a: "))
+b = int(input("Enter value of b: "))
+c = int(input("Enter value of c: "))
+temp = a
+a = b
+b = c
+c = temp
+print("A =", a)
+print("B =", b)
+print("C =", c)
